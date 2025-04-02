@@ -1,10 +1,14 @@
 from services.weatherapi import WeatherAPIService
 from services.openweathermap import OpenWeatherMapService
+from services.weatherstack import WeatherStackService
+from services.tomorrow import TomorrowService
 
 class WeatherServiceFactory:
     SERVICES = {
         'weatherapi': WeatherAPIService,
-        'openweathermap': OpenWeatherMapService
+        'openweathermap': OpenWeatherMapService,
+        'weatherstack': WeatherStackService,
+        'tomorrow': TomorrowService
     }
 
     @staticmethod

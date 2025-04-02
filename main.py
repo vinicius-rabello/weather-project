@@ -5,7 +5,9 @@ from dotenv import load_dotenv
 
 service_names = [
     'weatherapi',
-    'openweathermap'
+    'openweathermap',
+    # 'weatherstack',
+    'tomorrow'
 ]
 
 load_dotenv()
